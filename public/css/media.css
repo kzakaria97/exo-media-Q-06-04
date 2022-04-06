@@ -1,3 +1,255 @@
-@media screen and (min-width: 1024px){
-    
+@media screen and (min-width:320px) and (max-width:767px) {
+    body {
+        width: 100%;
+    }
+    .you {
+        display: none;
+    }
+    .menu img {
+        display: none;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-self: center;
+    }
+    .para-pack{
+        font-size: 20px;
+    }
+    .para-pack1{
+        font-size: 15px;
+    }
+    .pack {
+        flex-direction: column;
+    }
+    .eclo {
+        font-size: 15px;
+    }
+    .diveclo {
+        width: 100px;
+        height: 50px;
+    }
+    .logo-para img {
+        width: 25%;
+        height: 15%;
+    }
+    .logo-para p {
+        font-size: 12px;
+    }
+    .logo-onglet {
+        height: 25%;
+    }
+    .paragraphe {
+        font-size: 12px;
+    }
+    .onglet {
+        height: 120px;
+    }
+    .onglet2{
+        height: 320px;
+    }
+    .div-onglet{
+        position: relative;
+        bottom: -10%;
+    }
+    .div-onglet5{
+        position: relative;
+        bottom: 15%;
+    }
+    .div-onglet3{
+        position: relative;
+        bottom: 40%;
+    }
+    .logo-onglet2 {
+        height: 45px;
+        margin-top: -20px;
+    }
+    .logo-onglet3 {
+        height: 25%;
+    }
+    .onglet3 {
+        height: 100px;
+    }
+    .dernier-para {
+        font-size: 11px;
+    }
+    .foot3 {
+        font-size: 17px;
+    }
+    .icon {
+        height: 30px;
+    }
+    .final {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    body {
+        width: 50%;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100px;
+    }
+    .you {
+        height: 25px;
+    }
+    .menu img {
+        height: 30px;
+    }
+    .logopack img {
+        height: 70px;
+    }
+    .para-pack {
+        font-size: 17px;
+    }
+    .para-pack1 {
+        font-size: 15px;
+    }
+    .eclo {
+        font-size: 17px;
+    }
+    .diveclo {
+        height: 50px;
+        width: 140px;
+    }
+    .logo-para img {
+        height: 130px;
+    }
+    .logo-para p {
+        font-size: 12px;
+    }
+    .eclosion {
+        margin-bottom: -50px;
+    }
+    .paragraphe {
+        font-size: small;
+    }
+    .logo-onglet {
+        height: 45px;
+        display: flex;
+    }
+    .onglet {
+        display: flex;
+        justify-content: space-around;
+    }
+    .onglet2 {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        gap: 0px;
+    }
+    .logo-onglet2 {
+        height: 50px;
+        display: flex;
+    }
+    .onglet3 {
+        height: 120px;
+    }
+    .logo-onglet3 {
+        height: 45px;
+    }
+    .dernier-para {
+        font-size: 15px;
+    }
+    .final {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .foot3 {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+    .menu img{
+        height: 30px;
+    }
+    .you {
+        height: 20px;
+    }
+    .logopack img {
+        height: 70px;
+    }
+    .para-pack {
+        font-size: 17px;
+    }
+    .para-pack1 {
+        font-size: 15px;
+    }
+    .eclo {
+        font-size: 17px;
+    }
+    .diveclo {
+        height: 50px;
+        width: 140px;
+    }
+    .logo-para img {
+        height: 130px;
+    }
+    .logo-para p {
+        font-size: 12px;
+    }
+    .eclosion {
+        margin-bottom: -50px;
+    }
+    .onglet {
+        height: 100px;
+    }
+    .evolution {
+        width: 140px;
+        height: 50px;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .onglet2 {
+        flex-wrap: wrap;
+        display: flex;
+        height: 250px;
+        width: 100%;
+        justify-content: center;
+        gap: 50px;
+    }
+    .envol {
+        width: 140px;
+        height: 50px;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .onglet3 {
+        height: 110px;
+    }
+    .logo-onglet3 {
+        height: 45px;
+    }
+    .dernier-para {
+        font-size: 14px;
+    }
+    .final {
+        height: 120px;
+    }
+    .foot3 {
+        font-size: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .contact {
+        display: flex;
+        justify-content: space-around;
+    }
+    .icon {
+        height: 25px;
+    }
 }
